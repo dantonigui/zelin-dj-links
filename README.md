@@ -1,47 +1,31 @@
-# DJ Zelin | Link in Bio
+# DJ Zelin — Link in Bio
 
-Página de links do DJ Zelin, centralizando playlists, vídeos, redes sociais e contatos em um único endereço.
+A responsive link page that brings DJ Zelin's music, videos, social profiles, and booking contact together in one place.
 
-## Links
+## Highlights
 
-- Playlist Mundo Eletrônico — Spotify
-- Mundo Eletrônico Club Radio (DJ Set) — YouTube
-- Instagram e TikTok
-- Contato para bookings e publicidade via WhatsApp
+- Quick access to Spotify and YouTube content.
+- Links to Instagram and TikTok.
+- WhatsApp contact for bookings and promotion.
 
-## Tecnologias
+## Built with
 
-- HTML5 e CSS3
-- Google Fonts (Bricolage Grotesque + Orbitron)
+- HTML5 and CSS3
+- Google Fonts: Bricolage Grotesque and Orbitron
 - Bootstrap Icons
 
-## Estrutura
+## Run locally
+
+Open `index.html` in a browser. No build step is required. Fonts and icons are loaded from external CDNs.
+
+## Project structure
 
 ```
-/
+.
+├── images/
 ├── index.html
 ├── style.css
+└── README.md
 ```
 
-## Como rodar
-
-Abra o `index.html` no navegador. Não há dependências para instalar — fontes e ícones são carregados via CDN.
-
-## Adicionar novos links
-
-Basta inserir um novo `<li>` dentro da `<ul class="list">` no `index.html`:
-
-```html
-<li class="list-item">
-  <a class="link" target="_blank" href="URL">
-    Nome da plataforma
-    <i class="bi bi-nome-do-icone"></i>
-  </a>
-</li>
-```
-
-Ícones disponíveis em [icons.getbootstrap.com](https://icons.getbootstrap.com/).
-
----
-
-Desenvolvido por Guilherme D'antoni.
+To add a link, update the links list in `index.html` and provide a descriptive label and icon.
